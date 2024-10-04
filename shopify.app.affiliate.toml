@@ -3,7 +3,7 @@
 client_id = "ef530ecc967ab49ccf860327e109593a"
 name = "affiliate"
 handle = "affiliate-52"
-application_url = "https://arcade-privileges-depending-orchestra.trycloudflare.com"
+application_url = "https://bali-tri-india-airports.trycloudflare.com"
 embedded = true
 
 [build]
@@ -16,9 +16,9 @@ scopes = ""
 
 [auth]
 redirect_urls = [
-  "https://arcade-privileges-depending-orchestra.trycloudflare.com/auth/callback",
-  "https://arcade-privileges-depending-orchestra.trycloudflare.com/auth/shopify/callback",
-  "https://arcade-privileges-depending-orchestra.trycloudflare.com/api/auth/callback"
+  "https://bali-tri-india-airports.trycloudflare.com/auth/callback",
+  "https://bali-tri-india-airports.trycloudflare.com/auth/shopify/callback",
+  "https://bali-tri-india-airports.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

@@ -10,7 +10,7 @@ import {
   Button,
   AppProvider,
 } from "@shopify/polaris";
-import { useLoaderData } from "@remix-run/react";
+import { Link, useLoaderData } from "@remix-run/react";
 
 export const loader = async () => {
   // This is a placeholder for your actual data fetching logic
@@ -51,13 +51,19 @@ export default function Dashboard() {
             <Card sectioned title="Quick Actions">
               <Layout>
                 <Layout.Section oneThird>
-                  <Button fullWidth>Generate New Link</Button>
+                  <Link to={"https://www.my12twelve.com/affiliate"}>
+                    <Button fullWidth>Generate New Link</Button>
+                  </Link>
                 </Layout.Section>
                 <Layout.Section oneThird>
-                  <Button fullWidth>View All Affiliates</Button>
+                  <Link to={"/app/affiliate"}>
+                    <Button fullWidth>View All Affiliates</Button>
+                  </Link>
                 </Layout.Section>
                 <Layout.Section oneThird>
-                  <Button fullWidth>Payout Report</Button>
+                  <Link to={"/app/reports"}>
+                    <Button fullWidth>Payout Report</Button>
+                  </Link>
                 </Layout.Section>
               </Layout>
             </Card>

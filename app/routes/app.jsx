@@ -24,10 +24,10 @@ export default function App() {
           Home
         </Link>
         <Link to="/app/dashboard">Dashboard</Link>
-        {/* <Link to="/app/affiliate">Affiliate</Link>
-        <Link to="/app/orders">Orders</Link>
-        <Link to="/app/refer">Refer</Link> */}
-        <Link to="/app/additional">Additional page</Link>
+        <Link to="/app/affiliate">Affiliate</Link>
+        <Link to="/app/reports">View Reports</Link>
+        {/* <Link to="/app/refer">Refer</Link> 
+        <Link to="/app/additional">Additional page</Link>*/}
       </NavMenu>
       <Outlet />
     </AppProvider>
